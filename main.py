@@ -8,9 +8,18 @@ $MAKEFUN_OUTPUT_DIR/entry.png when that variable is set.
 Running it twice writes exactly the same bytes.
 """
 
+import hashlib
 import os
 import shutil
 import sys
+
+
+def _sha256(path):
+    digest = hashlib.sha256()
+    with open(path, "rb") as handle:
+        for chunk in iter(lambda: handle.read(65536), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def main():
@@ -24,8 +33,8 @@ def main():
         return 1
     shutil.copyfile(src, dst)
     os.chmod(dst, 0o644)
-    if os.path.getsize(dst) != os.path.getsize(src):
-        print("error: incomplete copy to " + dst, file=sys.stderr)
+    if _sha256(dst) != _sha256(src):
+        print("error: copy mismatch for " + dst, file=sys.stderr)
         return 1
     print("wrote " + dst)
     return 0
