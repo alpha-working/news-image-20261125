@@ -1,56 +1,49 @@
-# News brief — Wednesday 25 November 2026 (for news-image-20261125)
+# News brief — Wednesday 25 November 2026 (v2, full day)
 
-Sources checked 2026-11-25 ~09:00 WIB: Reuters World News Summary (devdiscourse), Starlit Daily, RFE/RL, NewsFlashTimes, apexwire Hour in Review, school-assembly roundup (JagranJosh), Excellence Grand Prix global news.
+Rebuilt 2026-11-26 after the full 25 Nov news day ended in every time
+zone. Sources: Reuters World News Summaries of 25–26 Nov 2026 and the
+outlets named on each item. Every story happened or was first reported
+on Wednesday 25 Nov 2026; two briefs are Tuesday events first reported
+Wednesday and are labelled as such on the image.
 
-Top stories to sum up in one 1024x1024 image (judge has no news feed — image itself must show it):
+## 13 drawn cards
+1. US proposes tariffs on 14 partners over factory overcapacity (Reuters)
+2. Ukraine says it struck Savasleyka air base, 5 planes damaged (Reuters)
+3. Russian ballistic missiles hit Kyiv late Wednesday; power cut in 5 regions (Reuters)
+4. Houthis threaten Jeddah and Red Sea ports; coalition strikes Hodeidah (Reuters)
+5. Israel kills Hamas security chief Abuelouf, his wife and two children (Reuters)
+6. Pakistan's Zeeshan Ali first foreigner to board China's Tiangong, 06:35 GMT (Reuters)
+7. Australia–Solomon Islands treaty signed in Canberra (Reuters, DFAT)
+8. Fuel vehicle fire kills 31 in Egypt (Reuters)
+9. Hostages freed in Cartagena supermarket siege, 06:30 GMT (Reuters)
+10. Second judge blocks birthright citizenship order (Reuters)
+11. Murmansk governor Chibis held in corruption probe (Reuters)
+12. Iraq top court backs federal troops on Kurdistan borders (Reuters)
+13. Senator Booker demands answers from Nvidia (Reuters)
 
-## Lead stories (25 Nov developments)
-1. **Ukraine hits Russian ship in Gulf of Finland** — Zelensky confirms Ukraine was behind Saturday's drone strike on a Russian cargo ship in the Gulf of Finland; Norway, a strong Kyiv ally, urges caution. Follows Monday's sinking of the corvette Merkury off Benghazi, Libya.
-2. **Houthis hit Riyadh's tallest tower, 11 wounded** — Saudi civil defence says the Houthis struck the capital's tallest tower; Yemeni government forces say the Houthis have pushed to within 60 km of Aden but will not take the city.
-3. **Indonesia's Vice-President resigns amid political strain** — resignation shakes Jakarta politics.
-4. **Nvidia, day two of the Huang return** — Nvidia holds an all-hands meeting a day after Jensen Huang's return as CEO; Schumer vows a "full power" probe into the Trump administration's role; Dow gained 1,448 points, its best day since April 2025.
+## 26 briefs
+Sudan RSF drones kill 19 (reported Wed); Puigdemont to return 12 Dec;
+Ramaphosa court reprieve; 34 states urge Russia to halt riot gas;
+Kenya cult leader convicted anew; IS kills 2 in Hasaka; Nigeria
+militants kill 30+ (reported Wed); UN evacuates 10 Ebola workers;
+Iran vows to withstand blockade; North Korea expels Swiss envoy;
+Pope Leo calls COP31 failure troubling; record 2,100+ Canary
+migrants; Bulgaria intercepts migrant boat; RAF hangars jets; Italy
+rebukes Ukraine; judges urge dropping Netanyahu case; Andy Taylor
+dies at 65 (announced Wed); Nigeria seizes $227m meth; Tinubu vows
+peace; India on Hasina return; Iowa lead-azide detonation; markets
+KOSPI -6.16%, Nasdaq -0.62%; Rams beat Packers 26-13; Bogor mine
+toll 6; Bangladesh garment protests; Ukraine drones hit Samara.
 
-## Column stories
-5. **Gaza:** Israeli drone strikes kill a senior Hamas security official plus three policemen and three siblings, one a child.
-6. **NATO:** AWACS early-warning aircraft deploying to Poland after Russian missiles and a drone breached Polish airspace.
-7. **France:** Sarkozy corruption case ordered to trial, with wife Carla Bruni; pre-trial hearing set for 1 April 2027.
-8. **USA:** FBI crime database hit by suspected breach.
-9. **Iraq:** PM orders federal forces to seize Kurdish oilfields and crossings; Kurdistan warns Baghdad against military confrontation.
-10. **Iran:** medicine shortage leaves patients hunting for drugs; winter gas shortages and electricity rationing as war damage deepens the energy crisis.
-11. **Business:** CrowdStrike agrees to buy Zscaler for $43.9B, a 34% premium.
-12. **Rohingya:** Malaysia set to return many Rohingya refugees to Myanmar.
-13. **UK / Russia:** GPS interference tied to a Russian ship disrupted 140 flights over the UK and North Sea.
+## Date-check exclusions (on the image)
+Tue 24 Nov: Houthi drone hits Riyadh tower (11 hurt), Huawei guilty
+verdict, Sarkozy trial order, Zelensky confirms Sparta II strike,
+Dow above 50,000. Mon 23 Nov: Huang back at Nvidia. 12 Nov:
+Indonesia VP Gibran resigns. 21–22 Nov: Sparta II hit; Merkury sunk.
 
-## IN BRIEF (23 more)
-14. DRC reinstitutes cobalt export ban as prices decline
-15. Senegal gets its 2025 AFCON title back after CAS ruling
-16. Car bomb in Colombia injures at least 23
-17. Cameroon separatist leader in Norway court over war crimes charges
-18. Fiji declares state of emergency over El Niño drought
-19. Volkswagen workers carry caskets in protest over cuts
-20. Turkey's Kizilelma fighter drone declared in service
-21. Fort Hood shooter Hasan seeks stay of execution set for next week
-22. US CIA and ODNI face cyberattack on public information
-23. Democrats hold unprecedented House majority of at least 259 seats
-24. RFE/RL returns to shortwave with radio for Afghan girls
-25. Nigerian emir suspended after sexual assault allegation
-26. Armed men hold dozens hostage in Cartagena supermarket
-27. Rebel group pulls back from DR Congo areas after clashes
-28. China Southern's Xiamen unit orders 50 Boeing 737-8s
-29. Britain sanctions the Houthis and four top rebel officials
-30. Real Madrid beat PSV 5-1 (Bellingham stunner, Mbappé brace)
-31. England defeat Australia in second T20I by eight wickets
-32. GTA 6 released worldwide for PS5 and Xbox Series X|S
-33. BJP and Shiromani Akali Dal announce alliance for Punjab 2027 polls
-34. Nepal PM Balendra Shah ends first state visit to India
-35. Persian singer flogged for performing on stage without hijab
-
-## Image concept
-Same proven format as the 24 Nov entry (v9 "THE WORLD TODAY" broadsheet, 1024x1024, 35 stories):
-masthead "WEDNESDAY, 25 NOVEMBER 2026" + "35 STORIES • WORLD EDITION"; lead story (Ukraine / Gulf of Finland) with a visual strip; two secondary panels (Houthis / Riyadh, Indonesia VP resignation) with small illustrations; three newspaper columns with 9 stories (kicker + headline + one-line dateline summary); IN BRIEF strip with the remaining 23 stories. Bylines under the lead headline and datelines at the start of each column summary, as in v9. Must stay legible at 1024x1024, deterministic, no network at run time.
-
-## Kit verification (2026-11-25 ~09:00 WIB)
-- Kit tarball downloaded from https://make.fun/c/news-image-20261125/kit
-- File: ~/workspace/bounties/news-image-20261125/news-image-20261125-kit.tar.gz (8,430,093 bytes, gzip)
-- sha256 `d4dbb6c420617ce382d4cd95eece6473599f34780651ed8696daed34df9f4e75` — MATCHES the `x-kit-tarball-sha256` response header. Kit integrity verified.
-- Kit NOT yet extracted (extraction + RULES.txt read + local check await explicit go-ahead — see report).
+## Image
+39 stories, 7 regions (Europe 10, Middle East 6, Africa 8, Asia 5,
+Oceania 1, Americas 6, World 3), 17 fields. Structured density:
+region strip, GMT day strip, numbers strip, 13 numbered drawn cards
+with badges, 26 numbered briefs, pin map 1–13, date-check.
+1024×1024 PNG, deterministic, no network at run time.
