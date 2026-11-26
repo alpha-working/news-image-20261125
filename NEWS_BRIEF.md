@@ -1,4 +1,4 @@
-# News brief — Wednesday 25 November 2026 (v2, full day)
+# News brief — Wednesday 25 November 2026 (v3, full day)
 
 Rebuilt 2026-11-26 after the full 25 Nov news day ended in every time
 zone. Sources: Reuters World News Summaries of 25–26 Nov 2026 and the
@@ -45,5 +45,8 @@ Indonesia VP Gibran resigns. 21–22 Nov: Sparta II hit; Merkury sunk.
 39 stories, 7 regions (Europe 10, Middle East 6, Africa 8, Asia 5,
 Oceania 1, Americas 6, World 3), 17 fields. Structured density:
 region strip, GMT day strip, numbers strip, 13 numbered drawn cards
-with badges, 26 numbered briefs, pin map 1–13, date-check.
-1024×1024 PNG, deterministic, no network at run time.
+with badges, 26 numbered briefs, pin map 1–13, date-check. V3 keeps
+the same story set and enlarges the lead hierarchy, adds
+why-it-matters lines, shortens briefs and simplifies the map for
+thumbnail legibility. 1024×1024 PNG, deterministic, no network at
+run time.

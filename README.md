@@ -6,7 +6,7 @@
 
 Sum up the world's news of Wednesday 25 November 2026 in one image.
 
-The v2 image carries 39 sourced stories with structured density:
+The v3 image carries 39 sourced stories with structured density:
 13 numbered drawn cards (US tariffs on 14 partners, Ukraine's strike
 on a Russian air base, ballistic missiles on Kyiv, the Houthi Jeddah
 threat, the Gaza strike, the first foreign astronaut on Tiangong, the
@@ -14,7 +14,9 @@ Australia–Solomons treaty, Egypt's 31-dead fire, the Cartagena rescue,
 the birthright-citizenship injunction, the Murmansk detention, Iraq's
 border ruling, and the Nvidia probe), 26 numbered briefs, region and
 field counts, a GMT day strip, a numbers strip, a pin map, and a
-date-check section that excludes earlier-day near misses.
+date-check section that excludes earlier-day near misses. V3 enlarges
+the lead hierarchy, adds why-it-matters lines, shortens the briefs and
+simplifies the map so the front page stays readable at thumbnail size.
 
 ## Run it
 
