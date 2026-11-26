@@ -1,25 +1,33 @@
 #!/usr/bin/env python3
-"""Entry program for the 25 November 2026 news-image bounty (v4).
+"""Sum up 25 November 2026 world news in one image (v4).
 
-Writes the pre-built 1024x1024 front page to the output directory.
-Standard library only, no network, deterministic output bytes.
-The v4 image keeps 39 sourced stories and adds a bold date-proof
-strip so the day reads clearly even at thumbnail size.
+Entrypoint for the make.fun news-image-20261125 bounty. Standard library
+only, no network access. It copies the pre-built image entry.png
+(1024x1024, under 1 MiB) to /output/entry.png, or to
+$MAKEFUN_OUTPUT_DIR/entry.png when that variable is set.
+Running it twice writes exactly the same bytes.
+
+The v4 image sums up Wednesday 25 November 2026 in 39 sourced stories:
+13 numbered drawn cards, 26 numbered briefs, region/field counts, a
+GMT day strip, a numbers strip, a pin map and a date-proof section.
+Compared with v3 it adds a high-contrast positive date-proof strip,
+marks earlier dates as not included, aligns the lead trio with the
+day's top stories, and raises card and brief legibility at thumbnail
+size without changing the verified story set.
 """
+
 import hashlib
 import os
+import shutil
 import sys
 
 
-def digest(path):
-    h = hashlib.sha256()
-    with open(path, "rb") as f:
-        while True:
-            block = f.read(65536)
-            if not block:
-                break
-            h.update(block)
-    return h.hexdigest()
+def _sha256(path):
+    digest = hashlib.sha256()
+    with open(path, "rb") as handle:
+        for chunk in iter(lambda: handle.read(65536), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def main():
@@ -29,15 +37,13 @@ def main():
     src = os.path.join(here, "entry.png")
     dst = os.path.join(out_dir, "entry.png")
     if not os.path.isfile(src):
-        print("missing entry.png beside main.py", file=sys.stderr)
+        print("error: missing " + src, file=sys.stderr)
         return 1
-    with open(src, "rb") as f:
-        data = f.read()
-    with open(dst, "wb") as f:
-        f.write(data)
+    shutil.copyfile(src, dst)
     os.chmod(dst, 0o644)
-    if digest(dst) != digest(src):
-        print("output hash mismatch", file=sys.stderr)
+    # Verify the copy byte for byte before reporting success.
+    if _sha256(dst) != _sha256(src):
+        print("error: copy mismatch for " + dst, file=sys.stderr)
         return 1
     print("wrote " + dst)
     return 0
