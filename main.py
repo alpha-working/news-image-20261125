@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sum up 25 November 2026 world news in one image (v4).
+"""Sum up 25 November 2026 world news in one image (v5).
 
 Entrypoint for the make.fun news-image-20261125 bounty. Standard library
 only, no network access. It copies the pre-built image entry.png
@@ -7,13 +7,14 @@ only, no network access. It copies the pre-built image entry.png
 $MAKEFUN_OUTPUT_DIR/entry.png when that variable is set.
 Running it twice writes exactly the same bytes.
 
-The v4 image sums up Wednesday 25 November 2026 in 39 sourced stories:
+The v5 image sums up Wednesday 25 November 2026 in 39 sourced stories:
 13 numbered drawn cards, 26 numbered briefs, region/field counts, a
-GMT day strip, a numbers strip, a pin map and a date-proof section.
-Compared with v3 it adds a high-contrast positive date-proof strip,
-marks earlier dates as not included, aligns the lead trio with the
-day's top stories, and raises card and brief legibility at thumbnail
-size without changing the verified story set.
+GMT day strip, a numbers strip, and a pin map. Compared with v4 it
+makes the comparison-size layer carry the entry: larger drawn lead
+scenes, bigger headlines, shorter facts, and briefs that stay clean
+at thumbnail size. Date clarity comes from a natural newspaper
+dateline naming the day, with no meta proof panel. The verified
+39-story set, counts, and sourcing badges are unchanged from v4.
 """
 
 import hashlib

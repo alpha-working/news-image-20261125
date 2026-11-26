@@ -6,18 +6,18 @@
 
 Sum up the world's news of Wednesday 25 November 2026 in one image.
 
-The v4 image carries 39 sourced stories with structured density:
+The v5 image carries 39 sourced stories with structured density:
 13 numbered drawn cards (US tariffs on 14 partners, AI doubts sinking
 chip stocks, the first foreign astronaut on Tiangong, ballistic
 missiles on Kyiv, the Houthi Jeddah threat, the Gaza strike, the
 Australia–Solomons treaty, Egypt's 31-dead fire, the Cartagena rescue,
 the birthright-citizenship injunction, the Murmansk detention, Iraq's
 border ruling, and the Nvidia probe), 26 numbered briefs, region and
-field counts, a GMT day strip, a numbers strip, a pin map, and a
-date-proof section that marks earlier-day near misses as not included.
-V4 adds a high-contrast positive date-proof strip under the masthead
-and raises card and brief legibility so the front page stays readable
-at thumbnail size.
+field counts, a GMT day strip, a numbers strip, and a pin map.
+V5 enlarges the drawn lead scenes and headlines, shortens facts, and
+sets the briefs to stay clean at thumbnail size; the date is named in
+a natural newspaper dateline rather than a proof panel. The same
+verified 39-story set and region/field counts are retained.
 
 ## Run it
 
@@ -28,7 +28,7 @@ python3 main.py
 
 `main.py` is stdlib only and copies `entry.png` from this repository.
 No network, deterministic: two runs write the same bytes. `entry.png`
-was drawn locally by `build_v4.py` (Pillow, build tool only — not run
+was drawn locally by `build_v5.py` (Pillow, build tool only — not run
 by the entrypoint) from the news brief in `NEWS_BRIEF.md`.
 
 ---
